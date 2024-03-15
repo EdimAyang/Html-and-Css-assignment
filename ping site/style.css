@@ -1,0 +1,137 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0, auto;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lunch{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    font-weight: light;
+    letter-spacing: 2px;
+}
+
+
+.soon{
+    color: black;
+}
+p{
+    color: #22222252;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-bottom:40px ;
+
+
+
+    
+
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.email{
+    padding-right:20px ;
+
+}
+
+.input{
+    border-radius: 20px;
+    height: 30px;
+    width: 20em;
+    border-color: #426cf5;
+    border: 1px solid #426cf5;
+    }
+    
+    ::placeholder{
+        color: #426cf5;
+        padding-left: 10px;
+        
+    }
+
+    .button{
+        border: none;
+    }
+
+    .not{
+        border-radius: 20px;
+        background-color:#426cf5;
+        width: 10em;
+        border: 1px solid #cfd9de;
+
+    }
+    .span2{
+        color: #ffff;
+        font-weight: bold;
+        
+    }
+
+    .foot{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .fa-brands{
+        color:#426cf5 ;
+        padding: 10px;
+        
+    }
+
+    .copy{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .grid{
+        height: 80vh;
+        width: 60%;
+        display: grid;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-areas: 
+                            
+            "header header header"
+            "aside main main"
+            "aside main main" ;
+            grid-template-rows: 30px auto ;
+            grid-template-columns:25% auto ;
+            row-gap: 10px;
+    }
+
+    .header{
+        background-color: #cfd9de;
+        grid-area: header;
+        border-radius: 3px;
+        border: #cfd9de;
+        
+    }
+
+    .aside{
+        background-color:rgba(128, 128, 128, 0.267);
+        grid-area: aside;
+        border: #cfd9de;
+    }
+
+    .main{
+        background-color:rgba(128, 128, 128, 0.322) ;
+        grid-area: main;
+    }
+
+
+    
